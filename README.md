@@ -57,4 +57,4 @@ pip install django
 ```
 
 ## Скриншот
-![SCREEN](https://github.com/shakertov/up_trader/blob/main/images/1.png)
+![SCREEN](https://github.com/shakertov/up_trader/blob/main/1.png)
