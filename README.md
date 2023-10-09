@@ -55,3 +55,6 @@ pip install django
 </body>
 </html>
 ```
+
+## Скриншот
+![SCREEN](https://github.com/shakertov/up_trader/blob/main/images/1.png)
