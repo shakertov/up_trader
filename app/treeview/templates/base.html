@@ -1,0 +1,20 @@
+{# ЗАГРУЖАЕМ ПРИЛОЖЕНИЕ #}
+{% load treeview %}
+
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+<body>
+
+{# ОТРОСОВЫВАЕМ ШАБЛОН, ИСПОЛЬЗУЯ ТЭГ draw_menu #}
+{% draw_menu 'main' as main_menu %}
+{{ main_menu|safe }}
+
+{% draw_menu 'not_main' as not_main_menu %}
+{{ not_main_menu|safe }}
+
+</body>
+</html>
